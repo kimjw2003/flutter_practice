@@ -10,7 +10,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: 
+      home: Center(
+        child: Container(width: 50, height: 30, color: Colors.black,)
+      )
     );
   }
 }
